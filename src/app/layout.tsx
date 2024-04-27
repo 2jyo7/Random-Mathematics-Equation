@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +16,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body 
+       className={`{inter.className} text-slate-800 font-semibold text-2xl bg-[url('https://media.istockphoto.com/id/1353569120/photo/mathematical-symbols-and-education-concept.jpg?s=612x612&w=0&k=20&c=E5dpYF_otEySrlAvG1Hnd70VmY5lERvHld71B3eEnLc=')]`}
+      >
+    
+
+        {children}
+      
+        </body>
     </html>
   );
 }
