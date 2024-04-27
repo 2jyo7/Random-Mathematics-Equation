@@ -19,11 +19,8 @@ export default function RootLayout({
       <body 
        className={`{inter.className} text-slate-800 font-semibold text-2xl bg-[url('https://media.istockphoto.com/id/1353569120/photo/mathematical-symbols-and-education-concept.jpg?s=612x612&w=0&k=20&c=E5dpYF_otEySrlAvG1Hnd70VmY5lERvHld71B3eEnLc=')]`}
       >
-    
-
-        {children}
-      
-        </body>
+    {children}
+       </body>
     </html>
   );
 }

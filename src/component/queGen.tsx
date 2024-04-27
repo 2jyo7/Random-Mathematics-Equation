@@ -22,7 +22,7 @@ function QueGen() {
     setAns(answer);
   }
   const notify = () => {
-    console.log('notify....');
+    console.log('notify.....');
     
     
   }
